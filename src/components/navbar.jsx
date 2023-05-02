@@ -1,4 +1,4 @@
-import Main from "../assets/main.png";
+// import Main from "../assets/main.png";
 import { Link } from "react-router-dom"
 // import logo from "../assets/logo.png"
 import { useState } from "react";
@@ -28,7 +28,6 @@ const [showMobile, setshowMobile] = useState(false);
             : "bg-[#323b0a] h-[100vh] no top-0 w-[100vw] flex flex-col items-center justify-center fixed"
         }
       >
-        <img src={Main} alt="Daiverse" className="absolute nav-image"/>
         <div className={
           showMobile
             ? " h-[100vh] overlay top-0 w-[100vw] flex flex-col items-center justify-center ml-[-1rem] fixed show"

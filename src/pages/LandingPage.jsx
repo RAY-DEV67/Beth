@@ -1,7 +1,7 @@
 import video from "../assets/bethvideo.mp4";
 import gtvideo from "../assets/gtvideo.mp4";
-import habbit from "../assets/habbitbeth.mp4";
-import pizza from "../assets/pizzabeth.mp4";
+import habbit from "../assets/habbitvideo2.mp4";
+import pizza from "../assets/pizza2.mp4";
 import zaggi from "../assets/zaggibeth.mp4";
 import HOS from "../assets/houseofsota.jpg";
 import gtbeth1 from "../assets/gtbeth1.jpg";
@@ -114,7 +114,7 @@ export function LandingPage() {
   return (
     <div className="bg-[#80b6e5] text-[#f3f3f3]">
       <div className="bg-[#80b6e5] relative">
-        <video autoPlay muted loop className="h-[90vh] w-[100vw]">
+        <video autoPlay muted playsInline loop className="h-[90vh] w-[100vw]">
           <source src={video} type="video/mp4" className="" />
         </video>
         <div className="absolute top-0 flex flex-col items-center justify-end">
@@ -365,7 +365,7 @@ export function LandingPage() {
         </div>
         <div className="flex flex-col items-center">
           <div className="bg-[#80b6e5] mt-[1rem] relative">
-            <video autoPlay muted loop className="h-[90vh] w-[100vw]">
+            <video autoPlay playsInline muted loop className="h-[90vh] w-[100vw]">
               <source src={gtvideo} type="video/mp4" className="" />
             </video>
             <div className="absolute top-0 flex flex-col items-center justify-end">
@@ -408,7 +408,7 @@ export function LandingPage() {
           BRANDS IVE WORKED WITH
         </h2>
         <div className="bg-[#80b6e5] mt-[1rem] relative">
-          <video autoPlay muted loop className="h-[90vh] w-[100vw]">
+          <video autoPlay muted playsInline loop className="h-[90vh] w-[100vw]">
             <source src={pizza} type="video/mp4" className="" />
           </video>
           <div className="absolute top-0 flex flex-col items-center justify-end">
@@ -422,7 +422,7 @@ export function LandingPage() {
           </div>
         </div>
         <div className="bg-[#80b6e5] mt-[1rem] relative">
-          <video autoPlay muted loop className="h-[90vh] w-[100vw]">
+          <video autoPlay muted playsInline loop className="h-[90vh] w-[100vw]">
             <source src={habbit} type="video/mp4" className="" />
           </video>
           <div className="absolute top-0 flex flex-col items-center justify-end">
@@ -436,7 +436,7 @@ export function LandingPage() {
           </div>
         </div>
         <div className="bg-[#80b6e5] mt-[1rem] relative">
-          <video autoPlay muted loop className="h-[90vh] w-[100vw]">
+          <video autoPlay muted playsInline loop className="h-[90vh] w-[100vw]">
             <source src={zaggi} type="video/mp4" className="" />
           </video>
           <div className="absolute top-0 flex flex-col items-center justify-end">
