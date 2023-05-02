@@ -6,10 +6,10 @@ import { useState } from "react";
 export function Navbar() {
 const [showMobile, setshowMobile] = useState(false);
 
-    return ( <div className=" navbar bg-[#000009] text-[#f3f3f3] p-[0.5rem]">
+    return ( <div className=" navbar bg-[#80b6e5] text-[#f3f3f3] p-[0.5rem]">
         <div className="flex justify-between items-center mx-[1rem]">
         
-        <a href="https://www.instagram.com/direct/t/340282366841710300949128115078988223791" target="_Blank" className="flex flex-col items-center"> 
+        <a href="https://www.instagram.com/queenbeth__/" target="_Blank" className="flex flex-col items-center"> 
                 <button
                   to="/Styles"
                   className="border text-[3vw] bg-[#d9d9d9] border-white font-bold text-black text-xl py-[0.1rem] px-[0.8rem]"
@@ -18,7 +18,7 @@ const [showMobile, setshowMobile] = useState(false);
                 </button>
               </a>
       <Link to="/" className="flex flex-col items-end">
-     <p className="stylesfont">FUNKE THE MUSE</p>
+     <p className="stylesfont">Queen Beth</p>
       </Link>
         </div>
         <div
