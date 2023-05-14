@@ -145,12 +145,12 @@ export function LandingPage() {
                 target="_Blank"
                 className="flex flex-col items-center mt-[1rem]"
               >
-                <button
-                  to="/Styles"
+                <Link
+                  to="/About"
                   className="border text-[3vw] bg-[#80b6e5] border-white font-bold text-black text-xl py-[0.3rem] px-[1rem]"
                 >
-                  Work with me
-                </button>
+                  About me
+                </Link>
               </a>
             </div>
           </TextAnimatedDiv>
